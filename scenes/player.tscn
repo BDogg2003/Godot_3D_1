@@ -17,3 +17,5 @@ script = ExtResource("1_g2els")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.040789485)
 shape = SubResource("SphereShape3D_g2els")
+
+[node name="MobDetector" type="Area3D" parent="."]
